@@ -1,0 +1,157 @@
+.bhf #header-middle{
+    background-color: #e60014;
+    padding: 0.675em 0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+div.header-content{
+    background-color: #e60014;
+    height: 53.59px;
+    padding: 10.800;
+    width: 100%;
+}
+
+.bhf * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+}
+
+img.americanas {
+    width: 113.85px;
+}
+
+.bhf #header-middle{
+    padding: 00.675em 0;
+    background-color: #e60014;
+}
+
+.login {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    max-width: 360px;
+    margin: 3rem auto 0;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%,0%);
+}
+
+form p {
+    padding: 0;
+    margin-bottom: 0;
+    color: #666;
+}
+
+form h3 {
+    text-align: center;
+    color: #666;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+form h3 .icon {
+    width: 28px;
+    margin-right: -5px;
+    transform: translate(0,25%);
+}
+
+form input[type=text], form input[type=password]{
+    width: 100%;
+    height: 43px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 42.84;
+    cursor: pointer;
+    background: #e60014;
+    color: #fff;
+    margin: 20px 0px 0px;
+    padding: 10;
+    border-radius: 5px;
+}
+
+form input[type=submit]:active{
+    background: #8f000c;
+}
+
+@media screen and (min-width: 1025px) {
+    .bhf #h_brand .mini-brand {
+        max-width: 14em;
+        height: 2.3125em;
+    }
+    div.header-content {
+        height: 99.38px;
+        padding: 19.2px 0px;
+    }
+    img.americanas{
+        width: 224px;
+        margin: 0 22px 0 22px;
+    }
+    form h3 {
+        font-size: 20px;
+    }
+}
+
+div.cadastro{
+    text-align: center;
+}
+div.cadastro a {
+    color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    .bhf #h_brand .mini-brand {
+        max-width: 9.25em;
+        height: 1.5em;
+        padding: inherit;
+        display: block;
+    }
+    div.header-content {
+        height: 82.59px;
+        padding: 10.8px 0px;
+    }
+    img.americanas {
+        visibility: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    form {
+        background-color: #fff;
+        max-width: 100%;
+        margin: 3rem auto 0;
+        width: 95%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }   
+    
+}
+
